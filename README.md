@@ -24,6 +24,18 @@ The goal was to predict house prices using a variety of regression techniques, w
 - Residual plot analysis for visual error diagnosis
 - Submission preparation for Kaggle leaderboard evaluation
 
+## 📷 Key Visuals
+
+### 🔍 SHAP Summary Plot
+Shows the most impactful features used by the CatBoost model:
+
+![SHAP Summary Plot](images/SHAP_value.png)
+
+### 📉 Residual Distribution
+Visualizes how prediction errors are distributed across the dataset:
+
+![Residual Plot](images/distribution_plot.png)
+
 ## 🔜 Next Steps
 
 - Build a **baseline model pipeline** (automated log-transforming, encoding, basic tuning)
